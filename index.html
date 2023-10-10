@@ -1,0 +1,138 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Susan Dudley">
+        <meta name="description" content="Introductory 
+        page about The Little Taco Shop">
+        <title>The Little Taco Shop</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+        <h1>Welcome to The Little Taco Shop</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                
+                <li>
+                    <a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours of Operation</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/tacos_and_drink_400x267.png" 
+            alt="tacos and a drink" title="We love tacos!"
+            width="400" height="267">
+            <figcaption>Tacos and a Drink</figcaption>
+        </figure>
+    </header>
+    
+    <main>
+        <hr>
+        <article id="about">
+            <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
+            <p>
+                <abbr title="The Little Taco Shop">LTS</abbr>
+                opened in <time datetime="2020">2020</time> when two friends decided to
+                use handed down, classic, Mexican taco recipes to bring <strong>authentic Mexican tacos</strong>🌮🌮🌮
+                to be enjoyed by all!
+            </p>
+            <!-- <section> -->
+            <aside  class="aside">
+                <details>
+                    <summary>More about LTS Tacos</summary>
+                <ul>
+                    <li>
+                    LTS uses authentic, generations-old taco recipes!
+                    </li>
+                    <li>
+                        LTS uses only organic ingredients!
+                    </li>
+                    <li>
+                        LTS entire menu is Gluten Free!
+                    </li>
+                    <li>
+                        LTS strives to be the most delicious tacos 
+                        you've ever eaten or your money back!
+                    </li>
+                </ul>
+            </details>
+            </aside>
+        <!-- </section> -->
+        </article>
+        
+        <hr>
+        <article id="menu">
+            <h2 id="menuId">MENU</h2>
+            <table>
+                <caption>The LTS Menu</caption>
+                <thead>
+                    <!-- <th>&nbsp;</th> -->
+                    <tr>
+                        <th>Tacos</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <th scope="row" rowspan="3">
+                        Crunchy
+                       </th> 
+                       <td>1</td>
+                       <td>$1.50</td>
+                    </tr>
+                    <tr>
+                       <td>2</td>
+                       <td>$2.50</td>
+                    </tr>
+                    <tr>
+                       <td>3</td>
+                       <td>$3.25</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                         Soft
+                        </th>
+                        <td>1</td> 
+                        <td>$2.00</td> 
+                     </tr>
+                     <tr>
+                        <td>2</td> 
+                        <td>$3.50</td> 
+                     </tr>
+                     <tr>
+                        <td>3</td> 
+                        <td>$4.50</td> 
+                     </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Chips & Salsa
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </article>
+        
+    </main>
+    
+    <footer>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+        <hr>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+.aside > details{
+    width: 30%;
+    padding: 15px;
+    padding-left: 30px;
+    margin-left: 15px;
+    float:inline-end;
+    font-style: italic;
+    background-color: lightgray;
+
+} 
+
+.menuId {
+    text-align: center;
+}
+
+/* table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+} */
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
